@@ -1,0 +1,23 @@
+{%extends "layout.html"%}
+{% block content %}
+<div class="signup">
+     <h1>Contact Us</h1>
+     <hr>
+     <!-- <p>This is a test website again</p> -->
+     <form action="/contact/" method="POST"> 
+          <div class="container">            
+          <label for="name"><b>Name</b></label>
+          <input type="text" placeholder="Enter name" name="name" id="name" required>
+
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Enter Email" name="email" id="email" required>
+                
+          <label for="psw"><b>Message</b></label><br>
+          <textarea placeholder="Enter Content" rows=15 cols=156 name="content" id="content" required></textarea>    
+
+          <button type="submit" class="registerbtn">Submit</button>
+
+        </div>
+      </form>
+<div>
+{%endblock%}

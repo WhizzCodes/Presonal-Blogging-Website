@@ -1,0 +1,25 @@
+{%extends "layout.html"%}
+{% block content %}
+<div class="signup">
+     <h1>Signup</h1>
+     <hr>
+     <!-- <p>This is a test website again</p> -->
+     <form action="/signup/" method="POST"> 
+          <div class="container">            
+          <label for="name"><b>Name</b></label>
+          <input type="text" placeholder="Enter name" name="name" id="name" required>
+
+          <label for="email"><b>Email</b></label>
+          <input type="email" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+          <label for="psw"><b>Confirm Password</b></label>
+          <input type="password" placeholder="Enter Password" name="cpsw" id="psw" required>
+         
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+      </form>
+<div>
+{%endblock%}

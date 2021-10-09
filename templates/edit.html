@@ -1,0 +1,25 @@
+{%extends "layout.html"%}
+{% block content %}
+<div class="signup">
+    <a href="/dashboard"> <button>Dashboard</button></a>
+    <a href="/logout"> <button>Logout</button></a>
+    <hr>
+     <h1>Add / Edit Blog Posts</h1>
+     <hr>
+     <!-- <p>This is a test website again</p> -->
+     <form action="/edit/{{id}}" method="POST"> 
+          <div class="container">            
+          <label for="name"><b>Title</b></label>
+          <input type="text" placeholder="Enter title" value="{{post.title}}" name="title" id="title" required>
+
+          <label for="email"><b>Slug</b></label>
+          <input type="text" placeholder="Enter Slug" value="{{post.slug}}" name="slug" id="slug" required>
+      
+          <label for="psw"><b>Content</b></label><br>
+          <textarea placeholder="Enter Content" rows=15 cols=156 name="content" id="content" required>{{post.content}} </textarea>
+
+          <button type="submit"  class="registerbtn">Submit</button>
+        </div>
+      </form>
+<div>
+{%endblock%}

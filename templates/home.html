@@ -1,0 +1,17 @@
+{%extends "layout.html"%}
+{% block content %}
+<h1>Blogs</h1>
+<hr>
+{% for post in posts %}
+<div>
+    <a href="/blogs/{{post.slug}}" style="font-size:25px;" >{{post.title}}</a>
+    <p style="font-size: 17px;">{{post.content[0:100]}}...</p> 
+    <p style="font-size: 12px;">{{post.date}}</p> 
+    <br>
+<div>
+
+<br>
+{% endfor %}
+{%endblock%}
+
+
