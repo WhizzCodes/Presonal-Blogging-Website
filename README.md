@@ -3,7 +3,7 @@
 
  Here the Blogger User is able to post his/her blogs and control those post through Admin dashboard panel.
  
- where admin has to login to access dashboard and perform events such as Add new post, Edit, Delete etc.
+ Where admin has to login to access dashboard and perform events such as Add new post, Edit, Delete etc.
 
 # How to run in localhost via xampp server?
   Download the Code zip file.
