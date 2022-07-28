@@ -1,7 +1,7 @@
 # BloggingWebsite
-"Personal Blogging Website" in Python using "Flask" framework and "MySQL" Database.
+"Personal Blogging Website" created in Python using "Flask" framework and "MySQL" Database.
 
- Here the Blogger User is able to post his/her blogs and control those post through Admin dashboard panel.
+ Here the Blogger(User) is able to post his/her blogs and control those post through Admin dashboard panel.
  
  Where admin has to login to access dashboard and perform events such as Add new post, Edit, Delete etc.
 
