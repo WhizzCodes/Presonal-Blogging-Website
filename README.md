@@ -1,5 +1,5 @@
 # Personal Blogging Website
-It is "Python" web application created using "Flask" framework and "MySQL" Database.
+It is a "Python" web application created using "Flask" framework and "MySQL" Database.
 
  Here the Blogger(User) is able to post his/her blogs and control those post through Admin dashboard panel.
  
